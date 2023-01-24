@@ -1,0 +1,143 @@
+
+.img1{
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 25px;
+    box-shadow: 10px 20px 10px whitesmoke;
+}
+
+.container{
+margin-left: auto;
+margin-right: auto;
+display: block;
+box-shadow: 5px 10px 5px grey;
+width: 500px;
+height: 100px;
+text-align: center;
+font-family:'Courier New', Courier, monospace;
+}
+.cont{
+    margin-top: 50px;
+}
+input{
+margin-right: 5px;
+box-sizing: border-box;
+}
+
+.submit{
+    background-color: #EC669F;
+    color: #FFFFFF;
+    width: 100px;
+    height: 20px;
+    border: #EC669F;
+    border-radius: 5px;
+}
+
+.List{
+    text-align: center;
+    padding-top: 45px;
+    display: inline-block;
+}
+
+@media screen  and (max-width:767px) {
+    .img1{
+        width: 800px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 25px;
+        box-shadow: 10px 20px 10px whitesmoke;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        box-shadow: 5px 10px 5px grey;
+        width: 800px;
+        height: 100px;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        }
+
+        .cont{
+            margin-top: 100px;
+        }
+        .ResList{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .submit{
+            background-color: #EC669F;
+            color: #FFFFFF;
+            width: 100px;
+            height: 30px;
+            border: #EC669F;
+            border-radius: 5px;
+        }
+
+        input{
+            margin-right: 5px;
+            box-sizing: border-box;
+            height: 25px;
+            width: 250px;
+
+            }
+
+}
+
+
+li{
+    margin: 1em 0;
+    background-color: #EC669F;
+    color: #FFFFFF;
+    margin-right: 45px;
+    box-shadow: 10px 20px 10px whitesmoke;
+    cursor: pointer;
+}
+
+ li.checked{
+    background: #EE7C53;
+    color: #FFFFFF;
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:767px) {
+    .img1{
+        width: 335px;
+        height: 200px;
+        display: block;
+        border-radius: 25px;
+        box-shadow: 10px 20px 10px whitesmoke;
+    }
+
+    .container{
+        display: block;
+        box-shadow: 5px 10px 5px grey;
+        width: 335px;
+        height: 100px;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        }
+
+        .cont{
+            margin-top: 35px;
+        }
+        input{
+        margin-right: 5px;
+        box-sizing: border-box;
+        }
+        
+        .submit{
+            background-color: #EC669F;
+            color: #FFFFFF;
+            width: 60px;
+            height: 20px;
+            border: #EC669F;
+            border-radius: 5px;
+        }
+}
